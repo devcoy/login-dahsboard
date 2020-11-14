@@ -1,0 +1,36 @@
+* {
+    font-family: 'Red Hat Display', sans-serif;
+}
+html, body, main {
+    height: 100%;
+}
+#panel-left {
+    display: flex !important;
+    align-items: center;
+    background-color: #394867;
+}
+#panel-right {
+    background-color: #F1F6F9;
+}
+
+h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.description {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#panel-left .logo-container img {
+    width: 220px;
+}
+
+@media only screen and (max-width: 767px) {
+    #panel-left {
+        display: none !important;
+    }
+  }
